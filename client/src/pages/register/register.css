@@ -1,0 +1,61 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.1)), url("https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/1-10.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+.registerTitle{
+    font-size: 50px;
+    color: rgb(73, 56, 56)
+
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.registerForm > label {
+    margin: 10px 0;
+    
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.registerLoginButton{
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: lightcoral;
+    padding: 8px;
+    
+}
