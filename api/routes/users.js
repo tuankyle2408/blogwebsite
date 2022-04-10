@@ -23,7 +23,7 @@ router.put("/:id", async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(401).json("Bạn chỉ có thể cập nhập tài khoản của mình!");
+    res.status(401).json("Bạn chỉ có thể cập nhật tài khoản của mình!");
   }
 });
 

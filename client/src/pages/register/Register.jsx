@@ -38,14 +38,13 @@ export default function Register() {
             <label>Mật Khẩu</label>
             <input type="password" className="registerInput" placeholder="Nhập mật khẩu của bạn..."
              onChange={(e) => setPassword(e.target.value)}/>
-            
 
             <button className="registerButton"  type="submit">Đăng ký</button>
             
         </form>
         <button  className="registerLoginButton">
         <Link className="link" to ="/login">Đăng nhập
-        </Link>;
+        </Link>
         </button>
         {error && <span style={{color:"red", marginTop:"10px"}}>Có lỗi gì đó rồi!</span>}
     </div>

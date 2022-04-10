@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content:  center;
-    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.1)), url("https://media.baoquangninh.com.vn/dataimages/202012/original/images1460745_anh_1.jpg");
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("https://media.baoquangninh.com.vn/dataimages/202012/original/images1460745_anh_1.jpg");
     background-size: cover;
     align-items: center;
 }
@@ -58,4 +58,9 @@
     background-color: lightcoral;
     padding: 8px;
     
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: coral;
 }
